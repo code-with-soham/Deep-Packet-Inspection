@@ -1,0 +1,26 @@
+# Build outputs
+*.exe
+*.o
+*.obj
+*.a
+*.dll
+
+# Generated PCAP files
+output*.pcap
+vscode_output.pcap
+youtube_blocked.pcap
+
+# CMake
+build/
+cmake-build-*/
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
